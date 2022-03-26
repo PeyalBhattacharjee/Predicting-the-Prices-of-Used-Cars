@@ -43,7 +43,24 @@ Using Cars4U dataset, need to come up with a pricing model that can effectively 
     - Mileage is negative correlated to Engine,Power,Price.,Ageofcar
     - Price has negative correlation to age of car.
     - Kilometer driven doesnt impact Price
-6. With our linear regression model we have been able to capture ~89 variation in our data.
+    
+ ![image](https://raw.githubusercontent.com/PeyalBhattacharjee/Predicting-the-Prices-of-Used-Cars/main/Images/Capture_7.PNG)
+ 
+5. Observations and Insights based on EDA
+
+    - Expensive cars are in Coimbatore and Banglore.
+    - 2 Seater cars are more expensive.
+    - Deisel Fuel type car are more expensive compared to other fuel type.
+    - As expected, Older model are sold cheaper compared to latest model.
+    - Automatic transmission vehicle have a higher price than manual transmission vehicles.
+    - Vehicles with more engine capacity have higher prices.
+    - Price decreases as number of owner increases.
+    - Automatic transmission require high engine and power.
+    - Prices for Cars with fuel type as Deisel has increased with recent models.
+    - Engine,Power, how old the car his, Mileage,Fuel type,location,Transmission effect the price.
+
+
+6. With our linear regression model we have been able to capture ~89% variation in our data.
 7. The model indicates that the most significant predictors of price of used cars are - 
     - Age of the car
     - Number of seats in the car
