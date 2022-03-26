@@ -29,8 +29,13 @@ Using Cars4U dataset, need to come up with a pricing model that can effectively 
 ![image](https://raw.githubusercontent.com/PeyalBhattacharjee/Predicting-the-Prices-of-Used-Cars/main/Images/Capture_2.PNG)
 ![image](https://raw.githubusercontent.com/PeyalBhattacharjee/Predicting-the-Prices-of-Used-Cars/main/Images/Capture_3.PNG)
 
-4. With our linear regression model we have been able to capture ~89 variation in our data.
-5. The model indicates that the most significant predictors of price of used cars are - 
+3. Below is the relationship of of Price column with other numeric columns.
+
+![image](https://raw.githubusercontent.com/PeyalBhattacharjee/Predicting-the-Prices-of-Used-Cars/main/Images/Capture_4.PNG)
+![image](https://raw.githubusercontent.com/PeyalBhattacharjee/Predicting-the-Prices-of-Used-Cars/main/Images/Capture_5.PNG)
+
+5. With our linear regression model we have been able to capture ~89 variation in our data.
+6. The model indicates that the most significant predictors of price of used cars are - 
     - Age of the car
     - Number of seats in the car
     - Power of the engine
@@ -40,11 +45,11 @@ Using Cars4U dataset, need to come up with a pricing model that can effectively 
     - Fuel_Type
     - OwnerType
     - Transmission - Automatic/Manual
-6. Newer cars sell for higher prices. 1 unit increase  in age  of the car leads to [ exp(0.1123) = 1.12 Lakh ] decrease in the price of the vehicle, when everything else is constant.
-7. As the number of seats increases, the price of the car increases - exp(0.05) = 1.05 Lakhs
-8. Mileage is inversely correlated with Price. Generally, high mileage cars are the lower budget cars.    
-9. Kilometers Driven have a negative relationship with the price which is intuitive. A car that has been driven more will have more wear and tear and hence sell at a lower price, everything else being 0.
-10. The categorical variables are a little hard to interpret. But it can be seen that all the car_category variables in the dataset have a negative relationship with the Price and the magnitude of this negative relationship decrease as the brand category moves to lower brands. 
+7. Newer cars sell for higher prices. 1 unit increase  in age  of the car leads to [ exp(0.1123) = 1.12 Lakh ] decrease in the price of the vehicle, when everything else is constant.
+8. As the number of seats increases, the price of the car increases - exp(0.05) = 1.05 Lakhs
+9. Mileage is inversely correlated with Price. Generally, high mileage cars are the lower budget cars.    
+10. Kilometers Driven have a negative relationship with the price which is intuitive. A car that has been driven more will have more wear and tear and hence sell at a lower price, everything else being 0.
+11. The categorical variables are a little hard to interpret. But it can be seen that all the car_category variables in the dataset have a negative relationship with the Price and the magnitude of this negative relationship decrease as the brand category moves to lower brands. 
  
 **Recommendation**
 
