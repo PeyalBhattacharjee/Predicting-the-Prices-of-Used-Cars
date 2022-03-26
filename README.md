@@ -21,7 +21,7 @@ Using Cars4U dataset, need to come up with a pricing model that can effectively 
 **Observations from the model**
 
 1. Year is left skewed and has outilers on lower side., This column can be dropped. Kilometer_driven is right skewed.Mileage is almost Normally distrubuted. Has few outliers on upper and lower side. need to check further. Engine ,power and price are right skewed and has outliers on upper side. Age of car is right skewed.
-![image](https://raw.githubusercontent.com/PeyalBhattacharjee/Predicting-the-Prices-of-Used-Cars/main/Capture_1.PNG)
+![image](https://raw.githubusercontent.com/PeyalBhattacharjee/Predicting-the-Prices-of-Used-Cars/main/Images/Capture_1.PNG)
 3. With our linear regression model we have been able to capture ~89 variation in our data.
 4. The model indicates that the most significant predictors of price of used cars are - 
     - Age of the car
